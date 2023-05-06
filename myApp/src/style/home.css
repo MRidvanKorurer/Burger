@@ -1,0 +1,27 @@
+.home {
+    background: url("../assets/banneryeni.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 76vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.btnOrder {
+    width: 200px;
+    border: none;
+    background-color: #950101;
+    color: #fff;
+    border-radius: 40px;
+    padding: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .6s;
+}
+
+.btnOrder:hover {
+    background-color: #000;
+}

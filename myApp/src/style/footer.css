@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #950101;
+    color: #fff;
+    padding: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.socialItem {
+    font-size: 30px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.socialItem:hover {
+color: #000;
+}
